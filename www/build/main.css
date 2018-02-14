@@ -25688,7 +25688,7 @@ page-chat .innerMessage {
 }
 
 page-chat .innerMessage.messageRight {
-  background: #32db64;
+  background: #2FCE5F;
 }
 
 page-chat .username {
@@ -25768,6 +25768,11 @@ page-chat .message.special .innerMessage .messageContent {
   padding: 0 10px;
 }
 
+page-chat .messageContent {
+  font-size: 95%;
+  padding-top: 5px;
+}
+
 page-chat .message.special .innerMessage:before {
   content: '';
   height: 2px;
@@ -25784,6 +25789,8 @@ page-chat .message.special .innerMessage {
   background: transparent;
   color: black;
   font-size: 80%;
+  font-style: italic;
+  opacity: 0.8;
   width: 100%;
   float: none;
   text-align: center;
